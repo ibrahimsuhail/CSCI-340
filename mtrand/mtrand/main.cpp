@@ -81,7 +81,7 @@ void minMT(){
     int j = sizeof(min_th)/sizeof(min_th[0]);
     sort(min_th, min_th+j);
     /*                                          uncomment to see every value of array
-    for (i = 0; i < NUM_SUBTHREADS ; i++)
+    for (i = 0; i < NUM_THREADS ; i++)
     cout<< min_th[i] << ", ";
     */
     int MIN = min_th[0];
